@@ -10,7 +10,7 @@ import Interface.equipamentos.multifuncional.EquipamentoMultifuncional;
 
 public class Fabrica {
     public static void main(String[] args) {
-        EquipamentoMultifuncional em = new EquipamentoMultifuncional();
+            EquipamentoMultifuncional em = new EquipamentoMultifuncional();
 
         Scanner scanner = new Scanner();
 
