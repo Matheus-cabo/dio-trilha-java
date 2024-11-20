@@ -8,5 +8,6 @@ public class Escola {
         felipe.setIdade(8);
 
         System.out.println("O aluno " + felipe.getNome() + " tem " + felipe.getIdade() + " anos ");
+        
     }
 }

@@ -92,19 +92,21 @@ public class ListaTarefas {
         
         System.out.println(listaTarefas.obterTarefasPendentes());
         
-        listaTarefas.marcarTarefaConcluida("Tarefa1");
-        listaTarefas.marcarTarefaConcluida("Tarefa2");
-        listaTarefas.marcarTarefaConcluida("Tarefa3");
+        //listaTarefas.marcarTarefaConcluida("Tarefa1");
+        //listaTarefas.marcarTarefaConcluida("Tarefa2");
+        //listaTarefas.marcarTarefaConcluida("Tarefa3");
+        //listaTarefas.marcarTarefaConcluida("Tarefa4");
 
-        System.out.println(listaTarefas.obterTarefasConcluidas());
+        //System.out.println(listaTarefas.obterTarefasConcluidas());
 
-        listaTarefas.marcarTarefaPendente("Tarefa1");
-        listaTarefas.marcarTarefaPendente("Tarefa3");
-        System.out.println(listaTarefas.obterTarefasPendentes());
+        //listaTarefas.marcarTarefaPendente("Tarefa1");
+        //listaTarefas.marcarTarefaPendente("Tarefa3");
+        //listaTarefas.marcarTarefaPendente("Tarefa4");
+        //System.out.println(listaTarefas.obterTarefasPendentes());
 
-        System.out.println(listaTarefas.contarTarefas());
+        //System.out.println(listaTarefas.contarTarefas());
 
-        listaTarefas.limparListaTarefas();
-        listaTarefas.exibirTarefas();
+        //listaTarefas.limparListaTarefas();
+        //listaTarefas.exibirTarefas();
     }
 }

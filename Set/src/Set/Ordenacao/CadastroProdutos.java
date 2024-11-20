@@ -35,7 +35,7 @@ public class CadastroProdutos {
         cadastroProdutos.adicionarProduto(147258366, "Processador", 365.60, 1);
         
         System.out.println(cadastroProdutos.exibirProdutosPorNome());
-        System.out.println(cadastroProdutos.exibirProdutosPorPreco());
+        //System.out.println(cadastroProdutos.exibirProdutosPorPreco());
     }
 
 }    

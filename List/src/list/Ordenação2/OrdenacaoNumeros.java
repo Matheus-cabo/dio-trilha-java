@@ -49,7 +49,7 @@ public class OrdenacaoNumeros {
         ordenacaoNumeros.adicionarNumero(58);
         ordenacaoNumeros.adicionarNumero(10);
         
-        ordenacaoNumeros.exibirNumeros();
+        //ordenacaoNumeros.exibirNumeros();
         System.out.println("Descendente: " + ordenacaoNumeros.ordenarDescendente());
         System.out.println("Ascendente: " + ordenacaoNumeros.ordenarAscendente());
 

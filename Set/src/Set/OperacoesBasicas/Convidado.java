@@ -9,6 +9,7 @@ public class Convidado {
         this.codigoConvite = codigoConvite;
     }
 
+    
     public String getNome() {
         return nome;
     }
@@ -16,7 +17,6 @@ public class Convidado {
     public int getCodigoConvite() {
         return codigoConvite;
     }
-    
 
     @Override
     public int hashCode() {
@@ -40,9 +40,10 @@ public class Convidado {
         return true;
     }
 
+
     @Override
     public String toString() {
-        return "Convidado [nome=" + nome + ", codigoConvite=" + codigoConvite + "]";
+        return "[nome=" + nome + ", codigoConvite=" + codigoConvite + "]";
     }
 
     

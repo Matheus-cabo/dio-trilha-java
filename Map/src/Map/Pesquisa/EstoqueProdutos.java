@@ -63,20 +63,21 @@ public class EstoqueProdutos {
         return produtoMaiorQuantidadeValorNoEstoque;
     }
     
+    
     public static void main(String[] args) {
         EstoqueProdutos estoqueProdutos = new EstoqueProdutos();
 
         estoqueProdutos.adicionarProduto(885, "Mouse", 3, 5.29);
         estoqueProdutos.adicionarProduto(886, "Teclado", 2, 24.90);
-        estoqueProdutos.adicionarProduto(887, "Monitor", 5, 70.90);
+        estoqueProdutos.adicionarProduto(887, "Monitor", 10, 70.90);
         estoqueProdutos.adicionarProduto(888, "Headset", 9, 69.90);
 
-       // estoqueProdutos.exibirProdutos();
+        //estoqueProdutos.exibirProdutos();
 
         //System.err.println(estoqueProdutos.calcularValorTotalEstoque());
 
         //System.out.println(estoqueProdutos.obterProdutoMaisCaro());
-        System.out.println(estoqueProdutos.obterProdutoMaisBarato());
+        //System.out.println(estoqueProdutos.obterProdutoMaisBarato());
         System.out.println(estoqueProdutos.obterProdutoMaiorQuantidadeValorTotalNoEstoque());
         
 
